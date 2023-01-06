@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-'''import List and Tuple module'''
-from typing import List, Tuple
+'''import List,Iterable, Sequence, and Tuple module'''
+from typing import Iterable, Sequence, Tuple, List
 
 '''
 Module for combine_strings function
 '''
 
 
-def element_length(lst: List[str]) -> List[Tuple[str, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     '''Computes the length of a list of sequences.
     '''
     return [(i, len(i)) for i in lst]

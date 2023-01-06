@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+'''import List module'''
 from typing import List
 '''
 Module for declared variable

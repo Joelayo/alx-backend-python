@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from typing import list
+from typing import List
 from math import sum
 '''
 Module for declared variable

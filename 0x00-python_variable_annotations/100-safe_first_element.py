@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''import Any, Union, Sequence, and None module'''
-from typing import Any, Sequence, Union, None
+from typing import Any, Sequence, Union
 
 '''
 Module for safe_first_element function
